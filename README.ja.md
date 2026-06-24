@@ -20,16 +20,6 @@ YouTube動画の字幕（キャプション）をダウンロードするCLIツ�
 
 - [Bun](https://bun.sh/) v1.0以降
 
-### 環境設定
-
-`YOUTUBE_INNERTUBE_API_KEY`環境変数を設定してください。これはYouTubeのWebクライアントに埋め込まれている公開Innertube APIキーです（ユーザーが作成するキーではありません）:
-
-```bash
-export YOUTUBE_INNERTUBE_API_KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
-```
-
-永続化するには、シェル設定ファイル（`~/.bashrc`、`~/.zshrc`など）に追加してください。
-
 ### ソースから
 
 ```bash
