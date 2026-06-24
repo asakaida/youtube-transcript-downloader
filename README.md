@@ -20,16 +20,6 @@ No external dependencies for transcript fetching.
 
 - [Bun](https://bun.sh/) v1.0 or later
 
-### Environment Setup
-
-Set the `YOUTUBE_INNERTUBE_API_KEY` environment variable. This is YouTube's public Innertube API key embedded in their web client (not a user-created key):
-
-```bash
-export YOUTUBE_INNERTUBE_API_KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
-```
-
-To make it persistent, add to your shell config (`~/.bashrc`, `~/.zshrc`, etc.).
-
 ### From source
 
 ```bash
